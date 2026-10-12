@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    <nav>
+        <a href="hello-world.html">HELLO WORLD</a>
+    </nav>
+    <nav>
+        <a href="bio.html">BIO</a>
+    </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Send me a message</h2>
+            <form>
+                <p>
+                    <label for="fullname">Full Name:</label>
+                    <input type=""text" id="fullname" placeholder="Full name" required>
+                </p>
+                <p>
+                    <label for=""email">Email</label>
+                    <input type="email" id="email" placeholder="User@gmail.com" required>
+                    </p>
+                <p>
+                    <label for="topic" >Topic:</label>
+                    <select id="topic" name="topic">
+                        <option value="question">Question</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="collab">Collaboration</option>
+                    </select>
+                </p>
+                <p>
+                    preferred contact method:
+                    <input type="radio" id="reply-email" name="reply" value="email" checked>
+                    <lable for="reply-email">Email</lable>
+                    <input type="radio" id="reply-phone" name="reply" value="phone" checked>
+                    <lable for="reply-phone">Phone</lable>
+                </p>
+                <p>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" cols="40"></textarea>
+                </p>
+                <p>
+                    <inputtype="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I agree to contact you</label>
+                </p>
+                <button type="summit">Send</button>
+
+            </form>
+        </section>
+        <section>
+            <h2>My Study plan</h2>
+            <table border="1">
+                <thead>
+                    <tr><th>Day</th><th>Topic</th></tr>
+
+                </thead>
+                <tbody>
+                    <tr><td>Day 1</td><td>Setup and gitHub</td></tr>
+                    <tr><td>Day 2</td><td>HTML Basics</td></tr>
+                    <tr><td>Day 3</td><td>Forms,Tables,semantic tags</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Ravi shankar</p>
+    </footer>
+</body>
+</html>
